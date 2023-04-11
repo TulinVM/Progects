@@ -1,0 +1,34 @@
+/* eslint-disable no-undef, camelcase, no-magic-numbers */
+( Site = {
+    App : {
+        Models : {},
+        Auth   : {
+            Modules  : {},
+            Managers : {},
+        },
+        BugReporter    : {},
+        Collections    : {},
+        Views          : {},
+        isAdaptivePage : '',
+        Tips           : {},
+    },
+    Config : {
+        Recaptcha : {
+            MaxAttemts             : '10',
+            bruteforceLoginCaptcha : 0,
+            Key                    : '6LfU9QUTAAAAABOtrrApNyPn3_64iMNBJSodhE0F',
+            BanMinutes             : '10',
+        },
+        CSRFRegeneratePeriod : '1500',
+        desktopWidth         : 1024,
+        Flags                : {
+            inWizard  : '',
+            inPayment : '',
+        },
+    },
+    JS : {},
+} ),
+( lang = 'ru' ),
+( ru = true ),
+( en = '' ),
+( static_prefix = '' );
